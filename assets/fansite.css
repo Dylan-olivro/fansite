@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#dd {
+  background-image: url(./assets/885543.jpg);
+  background-repeat: no-repeat;
+  color: #fff;
+  background-size: cover;
+}
+.header--section {
+  display: flex;
+  /* justify-content: space-between; */
+}
+.header--section img {
+  height: 100px;
+}
+nav {
+  display: flex;
+  align-items: center;
+  /* width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end; */
+}
+nav ul {
+  list-style-type: none;
+  display: flex;
+}
+nav ul li {
+}
+footer {
+  display: flex;
+  color: #fff;
+  background-color: #000;
+}
