@@ -3,8 +3,10 @@
   padding: 0;
   box-sizing: border-box;
 }
-#dd {
-  background-image: url(./assets/885543.jpg);
+body {
+  max-width: 1920px;
+  margin: auto;
+  background-image: url(./assets/rl_platform_keyart_2019.webp);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -244,4 +246,36 @@ button:hover {
 .form--span a {
   text-decoration: none;
   color: #fff;
+}
+/* UPDATE */
+.update {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+.update--title {
+  border-bottom: 2px solid #f3d69b;
+  padding: 1% 1% 0;
+  background-color: #fff;
+}
+table {
+  padding: 1%;
+}
+.table--title {
+  padding: 1% 1% 0;
+}
+thead td {
+  padding: 1%;
+  background-color: #9baacb;
+  width: 20%;
+}
+#description {
+  width: 60%;
+}
+td {
+  border: 1px solid #000;
+  padding-left: 1%;
+}
+td ul {
+  margin-left: 3%;
 }
