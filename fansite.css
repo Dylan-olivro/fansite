@@ -10,7 +10,9 @@
 }
 
 /* HEADER */
-
+header {
+  padding: 2%;
+}
 .header--section {
   display: flex;
   justify-content: space-between;
@@ -31,16 +33,20 @@ nav ul {
   list-style-type: none;
   display: flex;
 }
-nav ul li {
+nav li {
   margin-right: 30px;
   font-size: 2rem;
+}
+nav a {
+  text-decoration: none;
+  color: #fff;
 }
 
 /* MAIN */
 /* PREMIERE Section */
 
 .home-section-1 {
-  background-color: #fff;
+  background-color: #f2f2f2;
   border-radius: 20px;
   width: 40%;
   color: #000;
@@ -65,7 +71,7 @@ nav ul li {
 }
 /* ARTICLE */
 article {
-  background-color: #fff;
+  background-color: #f2f2f2;
   flex: 2;
   margin: 2%;
   border-radius: 20px;
@@ -95,7 +101,7 @@ article img {
 }
 /* ASIDE */
 aside {
-  background-color: #fff;
+  background-color: #f2f2f2;
   flex: 1;
   margin: 2%;
   border-radius: 20px;
