@@ -9,6 +9,7 @@ body {
   background-image: url(./assets/rl_platform_keyart_2019.webp);
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 /* HEADER */
@@ -153,12 +154,17 @@ footer img {
   padding: 1%;
   color: #fff;
 }
+.footer--icon i:hover {
+  color: blue;
+}
 .footer--list {
   display: flex;
   justify-content: center;
 }
 .footer--list ul {
   list-style-type: none;
+  margin: 0 3%;
+  text-align: center;
 }
 .footer--list li {
   padding-top: 10px;
@@ -277,4 +283,32 @@ td {
 }
 td ul {
   margin-left: 3%;
+}
+/* esport */
+#main-esport {
+  display: flex;
+  justify-content: center;
+}
+.esport {
+  display: flex;
+  width: 80%;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.team-esport {
+  background-color: #fff;
+  border: 1px solid black;
+  width: 18%;
+  border-radius: 40px;
+  text-align: center;
+  margin: 2% 1%;
+}
+.team-logo {
+  width: 100%;
+  padding: 5%;
+  height: 60%;
+  object-fit: contain;
+}
+.team-players {
+  padding: 3%;
 }
