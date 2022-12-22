@@ -339,18 +339,21 @@ td ul {
     width: 80%;
   }
   nav ul {
-    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 5%;
   }
 
   nav li {
     border: 1px solid black;
-    margin: 5% 0;
-    background-color: blue;
+    margin: 1% 2%;
+    background-color: rgba(0, 0, 0, 0.4);
+    text-align: center;
+    padding: 5px 10px;
+    width: 40%;
   }
   nav a {
-    background-color: red;
     border-radius: 20px;
-    padding: 5%;
   }
   /* ACCUEIL */
   .home-section-1 {
@@ -361,5 +364,17 @@ td ul {
   }
   .home-section-2--card {
     flex-direction: column;
+  }
+  /* UPDATE */
+  td ul {
+    margin-left: 10%;
+  }
+  /* Esport */
+  .team-esport {
+    width: 90%;
+  }
+  /* Contact */
+  .form {
+    margin: 10% auto;
   }
 }
