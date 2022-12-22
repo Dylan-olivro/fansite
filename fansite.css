@@ -10,6 +10,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  font-family: "Roboto", sans-serif;
 }
 
 /* HEADER */
@@ -54,12 +55,37 @@ nav a::before {
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: red;
+  background-image: linear-gradient(
+    to left,
+    violet,
+    indigo,
+    blue,
+    green,
+    yellow,
+    orange,
+    red
+  );
   transform: scaleX(0);
   transition: transform 0.3s ease;
 }
 nav a:hover::before {
   transform: scaleX(1);
+}
+nav a:hover {
+  background-image: linear-gradient(
+    to left,
+    violet,
+    indigo,
+    blue,
+    green,
+    yellow,
+    orange,
+    red
+  );
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  color: transparent;
 }
 
 /* MAIN */
@@ -76,7 +102,6 @@ nav a:hover::before {
   text-align: center;
   padding: 2%;
 }
-
 .home-section-1--text {
   text-align: center;
   padding: 2%;
